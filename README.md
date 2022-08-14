@@ -22,7 +22,7 @@ The following **required** functionality is completed:
 Here's a walkthrough of implemented user stories:
 
 
-<img src="https://user-images.githubusercontent.com/100294737/182912092-6643ddc7-836e-4bda-ac3d-2fb3ccb899d1.gif" height="500">
+<img src="https://user-images.githubusercontent.com/100294737/184531101-f276d357-8b4c-4595-8b47-b4e9fb313694.gif" height="500">
 
 
 ## Notes
