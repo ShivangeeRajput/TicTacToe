@@ -17,59 +17,67 @@
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792">
+        app:layout_constraintVertical_bias="0.907">
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/homeButton"
             android:layout_width="150dp"
             android:layout_height="55dp"
             android:layout_marginTop="56dp"
             android:background="@drawable/blue_button"
-            android:onClick="HomeButtonClick"
+            android:onClick="HomePress"
             android:text="@string/HomeButton"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.785"
-            app:layout_constraintStart_toEndOf="@+id/button9"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintHorizontal_bias="0.714"
+            app:layout_constraintStart_toEndOf="@+id/playAgainButton"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="OnClick" />
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/playAgainButton"
             android:layout_width="150dp"
             android:layout_height="58dp"
             android:layout_margin="20dp"
             android:layout_marginStart="28dp"
             android:background="@drawable/red_button"
-            android:onClick="PlayAgainButtonClick"
+            android:onClick="PlayAgainPress"
             android:text="@string/PlayAgainButton"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.49" />
+            app:layout_constraintVertical_bias="0.49"
+            tools:ignore="OnClick" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/displayTurn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:textSize="24sp"
+        android:layout_marginTop="44dp"
+        android:textSize="30sp"
         android:textStyle="bold"
+        android:textColor="#494949"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.38" />
+        app:layout_constraintVertical_bias="0.08" />
 
     <com.example.tictactoe.TicTacBoard
         android:id="@+id/ticTacBoard"
         android:layout_width="310dp"
         android:layout_height="317dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="176dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        custom:boardColor="#000000" />
+        custom:OColor="#0000FF"
+        custom:XColor="#FF0000"
+        custom:boardColor="#000000"
+        custom:WinningLineColor="#00FF00"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
