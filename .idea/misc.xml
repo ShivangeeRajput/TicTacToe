@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Shivangi/AndroidStudioProjects/TicTacToe2/app/src/main/res/drawable/blue_button.xml" value="0.2035" />
-        <entry key="..\:/Users/Shivangi/AndroidStudioProjects/TicTacToe2/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Shivangi/AndroidStudioProjects/TicTacToe2/app/src/main/res/drawable/red_button.xml" value="0.222" />
+        <entry key="..\:/Users/Shivangi/AndroidStudioProjects/TicTacToe2/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Shivangi/AndroidStudioProjects/TicTacToe2/app/src/main/res/layout/game_display.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shivangi/AndroidStudioProjects/TicTacToe2/app/src/main/res/layout/player_setup.xml" value="0.264" />
         <entry key="..\:/Users/Shivangi/AndroidStudioProjects/TicTacToe2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2035" />

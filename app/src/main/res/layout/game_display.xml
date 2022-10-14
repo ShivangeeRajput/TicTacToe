@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GameDisplay"
-    android:background="#FFCDD2">
+    android:background="@color/white">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="334dp"
-        android:layout_height="171dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.907">
 
-        <Button
-            android:id="@+id/homeButton"
-            android:layout_width="150dp"
-            android:layout_height="55dp"
-            android:layout_marginTop="56dp"
-            android:background="@drawable/blue_button"
-            android:onClick="homePress"
-            android:text="@string/HomeButton"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.714"
-            app:layout_constraintStart_toEndOf="@+id/playAgainButton"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="OnClick" />
-
-        <Button
-            android:id="@+id/playAgainButton"
-            android:layout_width="150dp"
-            android:layout_height="58dp"
-            android:layout_margin="20dp"
-            android:layout_marginStart="28dp"
-            android:background="@drawable/red_button"
-            android:onClick="playAgainPress"
-            android:text="@string/PlayAgainButton"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.49"
-            tools:ignore="OnClick" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+<!--    </RelativeLayout>-->
 
     <TextView
         android:id="@+id/displayTurn"
-        android:layout_width="wrap_content"
+        android:layout_width="310dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:textSize="30sp"
-        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="-17dp"
         android:textColor="#494949"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.08" />
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <com.example.tictactoe.TicTacBoard
         android:id="@+id/ticTacBoard"
         android:layout_width="310dp"
         android:layout_height="317dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="176dp"
+        android:layout_marginEnd="41dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+
         custom:OColor="#0000FF"
-        custom:XColor="#FF0000"
-        custom:boardColor="#000000"
         custom:WinningLineColor="#00FF00"
+        custom:XColor="#FF0000"
+        custom:boardColor="#000000" />
 
-        />
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ticTacBoard"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/red_button"
+        android:onClick="homePress"
+        android:text="@string/HomeButton"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/playAgainButton"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ticTacBoard"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/blue_button"
+        android:onClick="playAgainPress"
+        android:text="@string/PlayAgainButton"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+
+</RelativeLayout>

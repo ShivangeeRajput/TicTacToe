@@ -3,11 +3,11 @@
 
     <string name="HomeTile">TicTacToe</string>>
     <string name="PlayButton">Play</string>>
-    <string name="PlayerSetupTitle">Enter Your Name</string>>
+    <string name="PlayerSetupTitle"> Enter Your Name</string>>
     <string name="Label1">Player 1</string>>
     <string name="Label2">Player 2</string>>
     <string name="SubmitButton">Submit Names</string>>
-    <string name="NameHint">Enter Your Name</string>>
+    <string name="NameHint"> Enter Your Name</string>>
 
     <string name="PlayAgainButton">Play Again</string>>
     <string name="HomeButton">Home</string>>
