@@ -26,20 +26,28 @@ Here's a walkthrough of implemented user stories:
 
 ## Screenshots
 <p>
-<img src="https://user-images.githubusercontent.com/100294737/230756582-73e23b26-7266-4efb-a2c7-c07684645d36.jpg" height="500" >
-<img src="https://user-images.githubusercontent.com/100294737/230756583-1e74b65f-e234-4d90-b9b3-209269863f77.jpg" height="500" >
-<img src="https://user-images.githubusercontent.com/100294737/230756579-af7d8ef2-e032-4ccb-9fc0-66c9719af21a.jpg" height="500">
-<img src="https://user-images.githubusercontent.com/100294737/230756581-1ff397be-211b-402d-bddc-1c5ee1e943e1.jpg" height="500">
-<img src="https://user-images.githubusercontent.com/100294737/230756584-fa348018-f1ca-4d16-8ed4-0e47345049f1.jpg" height="500">
-<img src="https://user-images.githubusercontent.com/100294737/230756585-99011537-e9cf-4163-a06b-37257f1885a9.jpg" height="500">
+    <img src="https://github.com/ShivangeeRajput/TicTacToe/assets/100294737/5cfc9493-ea05-4925-b8dd-6db9bfefe1af.jpg" height="500">
+    <img src="https://github.com/ShivangeeRajput/TicTacToe/assets/100294737/dd831b62-3e26-455d-84df-a255ffd6548f.jpg" height="500">
+    <img src="https://github.com/ShivangeeRajput/TicTacToe/assets/100294737/f2815344-0e78-49b8-b0e3-beac3f42cfa1.jpg" height="500" >
+    <img src="https://github.com/ShivangeeRajput/TicTacToe/assets/100294737/2d79feee-4d3a-48ab-ae52-fb128d898e80.jpg" height="500">
+    <img src="https://github.com/ShivangeeRajput/TicTacToe/assets/100294737/2621c87d-d98a-48e2-9925-deccbfe9a906.jpg" height="500">
+    <img src="https://github.com/ShivangeeRajput/TicTacToe/assets/100294737/6e2877e2-56f1-48fd-b223-f9935c726d51.jpg" height="500" >
+    
+
+
+
 </p>
+
+
+
+
 ## Notes
 
 Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2022] [Shivangee Rajput]
+    Copyright [2023] [Shivangee Rajput]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
