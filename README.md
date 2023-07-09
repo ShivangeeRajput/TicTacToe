@@ -22,9 +22,17 @@ The following **required** functionality is completed:
 Here's a walkthrough of implemented user stories:
 
 
-<img src="https://user-images.githubusercontent.com/100294737/184531101-f276d357-8b4c-4595-8b47-b4e9fb313694.gif" height="500">
+<img src="https://github.com/ShivangeeRajput/TicTacToe/assets/100294737/e2b06836-1d3e-4086-8e0f-a0a900b19a05.gif" height="500">
 
-
+## Screenshots
+<p>
+<img src="https://user-images.githubusercontent.com/100294737/230756582-73e23b26-7266-4efb-a2c7-c07684645d36.jpg" height="500" >
+<img src="https://user-images.githubusercontent.com/100294737/230756583-1e74b65f-e234-4d90-b9b3-209269863f77.jpg" height="500" >
+<img src="https://user-images.githubusercontent.com/100294737/230756579-af7d8ef2-e032-4ccb-9fc0-66c9719af21a.jpg" height="500">
+<img src="https://user-images.githubusercontent.com/100294737/230756581-1ff397be-211b-402d-bddc-1c5ee1e943e1.jpg" height="500">
+<img src="https://user-images.githubusercontent.com/100294737/230756584-fa348018-f1ca-4d16-8ed4-0e47345049f1.jpg" height="500">
+<img src="https://user-images.githubusercontent.com/100294737/230756585-99011537-e9cf-4163-a06b-37257f1885a9.jpg" height="500">
+</p>
 ## Notes
 
 Describe any challenges encountered while building the app.
